@@ -1,52 +1,6 @@
 const express = require('express');
 const app = express();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 module.exports = app;
 const api = require('./server.js');
 app.use(express.static('public'));
